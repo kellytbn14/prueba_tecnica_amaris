@@ -1,0 +1,284 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color: #F3F4F6;
+    background: rgb(2,0,36);
+background: linear-gradient(332deg, rgba(2,0,36,1) 0%, rgba(4,3,60,1) 28%, rgba(4,3,61,1) 43%, rgba(4,3,61,1) 49%, rgba(4,3,65,1) 61%, rgba(9,9,121,1) 80%);
+}
+
+header {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+/* flex */
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-grow {
+    flex-grow: 1;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-end {
+    justify-content: flex-end;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.items-end {
+    align-items: flex-end;
+}
+
+.gap {
+    gap: 1rem;
+}
+
+.gap-4 {
+    gap: 4rem;
+}
+
+/* text */
+.text-gray-100 {
+    color: #F3F4F6;
+}
+
+.text-gray-300 {
+    color: #D1D5DB;
+}
+
+.text-blue-400 {
+    color: #60A5FA;
+}
+
+.text-white {
+    color: #ffffff;
+}
+
+.no-underline {
+    text-decoration: none;
+}
+
+.hover\:underline:hover {
+    text-decoration: underline;
+}
+
+.text-4xl {
+    font-size: 4.5rem;
+    line-height: 1rem;
+}
+
+.text-2xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+}
+
+.text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+}
+
+.text-lg {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+/* bg color */
+.bg-gray-700 {
+    background-color: #374151;
+}
+
+.bg-gray-800 {
+    background-color: #1F2937;
+}
+
+.bg-gray-900 {
+    background-color: #111827;
+}
+
+.bg-gray-900 {
+    background-color: #111827;
+}
+
+.hover:bg-gray-600 {
+    background-color: #374151;
+}
+
+.hover-bg-gray-600 {
+    background-color: initial;
+}
+
+.hover-bg-gray-600:hover {
+    background-color: #374151;
+}
+
+/* width */
+.w-full {
+    width: 100%;
+}
+
+.max-w-xs {
+    max-width: 20rem;
+}
+
+.w-2-5 {
+    width: 40%;
+}
+
+.w-3-5 {
+    width: 60%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+/* height */
+.h-auto {
+    height: auto;
+}
+
+
+/* padding */
+.p-4 {
+    padding: 1rem;
+}
+
+.pt-4 {
+    padding-top: 1rem;
+}
+
+.pt-2 {
+    padding-top: 0.5rem;
+}
+
+.pb-4 {
+    padding-bottom: 1rem;
+}
+
+.pb-2 {
+    padding-bottom: 0.5rem;
+}
+
+.pl-4 {
+    padding-left: 1rem;
+}
+
+.pr-4 {
+    padding-right: 1rem;
+}
+
+.pl-6 {
+    padding-left: 1.5rem;
+}
+
+.pr-6 {
+    padding-right: 1.5rem;
+}
+
+.pt-6 {
+    padding-top: 1.5rem;
+}
+
+.pb-6 {
+    padding-bottom: 1.5rem;
+}
+
+.pl-16 {
+    padding-left: 4rem;
+}
+
+
+/* margin */
+.m-0 {
+    margin: 0;
+}
+
+.mb-0 {
+    margin-bottom: 0;
+}
+
+.ml-4 {
+    margin-left: 1rem;
+}
+
+.mt-16 {
+    margin-top: 4rem;
+}
+
+.mb-16 {
+    margin-bottom: 4rem;
+}
+
+.mt-8 {
+    margin-top: 2rem;
+}
+
+.mb-4 {
+    margin-bottom: 1rem;
+}
+
+.mb-2 {
+    margin-bottom: 0.5rem;
+}
+
+.ml-100px {
+    margin-left: 100px;
+}
+
+.mr-100px {
+    margin-right: 100px;
+}
+
+.mx-auto {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* border */
+.rounded {
+    border-radius: 0.25rem;
+}
+
+.rounded-lg {
+    border-radius: 0.5rem;
+}
+
+
+/* font */
+.font-semibold {
+    font-weight: 600;
+}
+
+.font-bold {
+    font-weight: 700;
+}
+
+/* shadow */
+.shadow-lg {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+        0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
